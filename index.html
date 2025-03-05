@@ -3,44 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giorgio Belli - Software Engineer</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Giorgio Belli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0078D7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header ul {
+            list-style: none;
+            padding: 0;
+        }
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0078D7;
+            color: white;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Portfolio Loaded Successfully");
+        });
+    </script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-600 text-white text-center py-12">
-        <h1 class="text-4xl font-bold">Giorgio Belli</h1>
-        <p class="text-xl">Software Engineer | Building Scalable Systems</p>
-    </header>
-
-    <section class="container mx-auto px-4 py-8">
-        <h2 class="text-2xl font-bold mb-4">About Me</h2>
-        <p class="mb-4">Results-driven Software Engineer with expertise in backend development, distributed systems, and DevOps practices. Passionate about workflow optimization, system performance, and cross-functional collaboration.</p>
-        <h3 class="text-xl font-bold mb-2">Skills</h3>
-        <ul class="list-disc list-inside">
-            <li>Backend: Java, Python, Go, PHP, Rust</li>
-            <li>Frontend: Angular, Flutter</li>
-            <li>DevOps: Kubernetes, Docker, Jenkins, ArgoCD</li>
-            <li>Databases: PostgreSQL, MongoDB, Elasticsearch</li>
+<body>
+    <header>
+        <h1>Giorgio Belli</h1>
+        <p>Software Engineer | Backend & Cloud Specialist | DevOps Enthusiast</p>
+        <ul>
+            <li><a href="mailto:giorgio.belli.98@gmail.com">Email</a></li>
+            <li><a href="https://linkedin.com/in/giorgio-belli" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/giorgiobelli" target="_blank">GitHub</a></li>
         </ul>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate and results-driven Software Engineer with expertise in backend development, distributed systems, and DevOps.</p>
     </section>
-
-    <section class="container mx-auto px-4 py-8">
-        <h2 class="text-2xl font-bold mb-4">Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold mb-2">Distributed System Design</h3>
-                <p>Designed and implemented a distributed system using Java, Python, and Go, integrating PostgreSQL and Elasticsearch.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-bold mb-2">Event-Driven Architecture</h3>
-                <p>Developed an event-driven architecture leveraging Kafka, Connect, and KSQL for scalability.</p>
-            </div>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <div>
+            <h3>Backend Developer</h3>
+            <p><strong>Confidential, Dubai</strong> | February 2022 - Present</p>
+            <ul>
+                <li>Developed scalable distributed systems using Java, Python, and Go.</li>
+                <li>Integrated PostgreSQL and Elasticsearch for optimized data management.</li>
+                <li>Managed DevOps pipelines with Kubernetes, ArgoCD, and ELK stack.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Full-Stack Developer</h3>
+            <p><strong>Innosystem S.r.l., Italy</strong> | March 2018 - January 2022</p>
+            <ul>
+                <li>Developed full-stack applications with Python, Java, PHP, and Rust.</li>
+                <li>Built microservices and RESTful APIs for scalable software solutions.</li>
+                <li>Created frontend applications using Angular and Flutter.</li>
+            </ul>
         </div>
     </section>
-
-    <footer class="bg-blue-600 text-white text-center py-6">
-        <p>Contact me at <a href="mailto:giorgio.belli.98@gmail.com" class="underline">your.email@example.com</a></p>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/giorgio-belli-dev" class="underline">LinkedIn</a></p>
+    
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Backend:</strong> Java, Python, Go, PHP, Rust, Spring Framework</li>
+            <li><strong>Frontend:</strong> Angular, Flutter</li>
+            <li><strong>DevOps & Cloud:</strong> Kubernetes, Docker, Jenkins, ArgoCD, Kafka, CI/CD</li>
+            <li><strong>Databases:</strong> PostgreSQL, MongoDB, Elasticsearch</li>
+            <li><strong>Tools:</strong> Jira, Git, Figma</li>
+        </ul>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor’s Degree in Computer Science</strong> - La Sapienza University (2017 - 2020)</p>
+        <p><strong>Technical High School Diploma – Computer Science</strong> (2012 - 2017)</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Giorgio Belli | <a href="https://github.com/giorgiobelli">GitHub</a></p>
     </footer>
 </body>
 </html>
